@@ -37,11 +37,6 @@ class Driver
     {
        
         parameterTest test = new parameterTest();
-        //test.Value(10);
-        //int a = 10, b=20;
-        //test.Swap(ref a, ref b);
-        //Console.WriteLine(a);
-        //Console.WriteLine(b);
         int max, min;
         int[] args = { 12, 54, 98, 54, 98, 43, 5, 7, 11, 48, 99, 32, 16 };
         test.MinMax(args, out min, out max);

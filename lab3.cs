@@ -12,7 +12,7 @@ class Book
         this.title = title; 
         this.author = author;
         this.available = available;
-        Console.WriteLine($"the title of the book is {title}");
+        Console.WriteLine($"the title of the book is _ {title}");
         Console.WriteLine($"The author of the book is {author}");
         console.writeLine($"the book is{available}");
     }
